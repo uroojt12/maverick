@@ -1,0 +1,15 @@
+<section id="sec-form">
+    <div class="contain">
+        <div class="inner">
+            <h2>Drop Your Documents</h2>
+            <form action="newsletter" method="post" autocomplete="off" class="">
+                <div class="txtGrp relative">
+                    <input type="email" name="email" id="email" class="txtBox" placeholder="@ your email address">
+                    <button type="submit">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

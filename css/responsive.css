@@ -1,0 +1,255 @@
+            @media (max-width: 1024px) {
+                .banner .contain .col {
+                    width: 56%;
+                }
+                .banner .contain .col2 {
+                    width: 40%;
+                }
+                header [nav] {
+                    margin-right: 15px;
+                }
+                #sec-quote .contain .col1 {
+                    padding-right: 0px;
+                }
+                .about-sec .contain .col2 .shape {
+                    left: -48px;
+                }
+                .about-sec .contain .videoBtn {
+                    top: 77%;
+                }
+                body .sec_heading h2 {
+                    font-size: 34px;
+                }
+                #sec_need .contain .col2 .image-1 {
+                    padding-bottom: 98%;
+                }
+                #sec_need .contain .col .inner {
+                    width: 30%;
+                }
+                #sec_need .contain .col2 .shape {
+                    top: 39%;
+                    width: 91%;
+                    right: 0;
+                }
+                .sec_bill .contain .owl-carousel .owl-nav button {
+                    top: 108%;
+                }
+                .sec_bill .contain .owl-carousel .owl-nav .owl-next {
+                    right: 43%;
+                }
+                .sec_bill .contain .owl-carousel .owl-nav .owl-prev {
+                    left: 47%;
+                }
+            }
+            
+            @media (max-width: 991px) {
+                header .toggle {
+                    display: flex;
+                }
+                [nav].active {
+                    opacity: 1;
+                    visibility: visible;
+                }
+                [nav] {
+                    position: fixed;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    top: 0;
+                    display: flex;
+                    align-content: space-between;
+                    flex-flow: column;
+                    width: auto;
+                    background: #fff;
+                    margin: 0;
+                    padding: 2rem 5rem;
+                    border-top: 0.2rem solid #eee;
+                    visibility: hidden;
+                    opacity: 0;
+                    overflow: auto;
+                    z-index: 3;
+                }
+                header [nav] ul {
+                    width: 100%;
+                    flex-flow: wrap;
+                    margin: auto 0;
+                }
+                header [nav] ul li {
+                    width: 100%;
+                    padding: 10px 0;
+                    text-align: center;
+                }
+                header [nav] ul li a {
+                    color: #000;
+                }
+                header [nav] ul li a:before {
+                    left: auto;
+                }
+                header [nav] ul li>.active:before {
+                    left: auto;
+                }
+                header #cta li {
+                    justify-content: center;
+                }
+                header [nav] ul li>.active:before {
+                    left: auto;
+                }
+                header .topNav .colR {
+                    width: 30%;
+                }
+                header .topNav .colL {
+                    width: 70%;
+                }
+                header [nav] #cta {
+                    margin: auto;
+                }
+                header .nav-item .dropdown-menu {
+                    transition: unset !important;
+                }
+                header [nav] {
+                    margin-right: 0px;
+                }
+                header .cta {
+                    margin: 0 auto;
+                }
+                header .cta a {
+                    margin-left: 0;
+                }
+                body .banner h1 {
+                    font-size: 40px;
+                }
+                .banner .contain .col {
+                    width: 100%;
+                }
+                .banner .contain .col2 {
+                    width: 100%;
+                    margin-top: 45px;
+                    margin-bottom: 0;
+                }
+                .about-sec .contain .flex .col {
+                    width: 100%;
+                }
+                .about-sec .contain .flex .col2 {
+                    width: 75%;
+                    margin: 0 auto;
+                }
+                .about-sec .contain .flex .col1 {
+                    padding-left: 0;
+                    margin-top: 30px;
+                }
+                #sec_need .contain .col {
+                    width: 100%;
+                }
+                #sec_need .contain .col1 {
+                    margin-bottom: 100px;
+                }
+                #sec-quote .contain .col {
+                    width: 100%;
+                }
+                footer .contain>.flexRow {
+                    display: inline-table;
+                }
+                footer .contain>.flexRow>.col {
+                    width: calc(100%/2);
+                    display: inline-block;
+                }
+                .about-sec .contain .videoBtn {
+                    top: 81%;
+                }
+                .sec_bill .contain .owl-carousel .owl-nav button {
+                    top: 12%;
+                }
+                .sec_bill .contain .owl-carousel .owl-nav .owl-prev {
+                    left: 0;
+                }
+                .sec_bill .contain .owl-carousel .owl-nav .owl-next {
+                    right: 0;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                body .testimonials .sec_heading {
+                    padding-right: 0;
+                }
+                #sec_need .contain .col .inner {
+                    width: 31%;
+                }
+            }
+            
+            @media (max-width: 512px) {
+                footer .contain>.flexRow>.col {
+                    width: 100%;
+                }
+                body .topNav {
+                    display: none;
+                }
+                body .sec_heading h6 {
+                    font-size: 14px;
+                }
+                body .banner h1 {
+                    font-size: 31px;
+                }
+                .banner .contain .col {
+                    text-align: center;
+                }
+                body .banner .sec_heading .sub-title {
+                    margin-left: 0;
+                }
+                body .sec_heading h2 {
+                    font-size: 30px;
+                }
+                body section {
+                    padding: 5rem 0;
+                }
+                body .about-sec .contain .flex .col2 {
+                    width: 100%;
+                }
+                .about-sec .contain .right_grid {
+                    width: 100%;
+                }
+                .about-sec .contain .right_grid::before {
+                    width: 155px;
+                    height: 155px;
+                    bottom: -42px;
+                    right: -6px;
+                }
+                .about-sec .vidBlk {
+                    overflow: unset;
+                }
+                #sec_need .contain .col .inner {
+                    width: 100%;
+                    margin-top: 16px;
+                }
+                #sec_need .contain .col1 {
+                    margin-bottom: 76px;
+                }
+                #sec_need .contain .col2 .inside {
+                    width: 88%;
+                    margin-left: 0;
+                }
+                .testimonials .contain .sec_heading {
+                    width: 100%;
+                }
+                .testimonials .contain .sec_content {
+                    width: 100%;
+                    padding-left: 0;
+                }
+                .testimonials .contain .client-img-box {
+                    display: none;
+                }
+                .testimonials .contain .client-info {
+                    margin-left: 0;
+                }
+                .testimonials .contain .client-content {
+                    margin-left: 0;
+                }
+                .testimonials .contain .inner .cntnt {
+                    padding: 65px 30px 55px;
+                }
+            }
+            
+            @media (max-width: 393px) {}
+            
+            @media (max-width: 375px) {}
+            
+            @media (max-width: 360px) {}
